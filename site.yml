@@ -1,0 +1,17 @@
+- name: Instalar docker
+  become: yes
+  hosts: tag_type_docker
+  roles: 
+    - docker
+
+- name: Subir container MySQL
+  become: yes
+  hosts:  tag_Name_telemetria0
+  roles:
+    - telemetria0
+
+- name: Subir container WordPress
+  become: yes
+  hosts:  tag_Name_telemetria1
+  roles:
+    - telemetria1

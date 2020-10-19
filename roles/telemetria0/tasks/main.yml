@@ -1,0 +1,24 @@
+- name: launch Mysql-server container
+  docker_container:
+    name: mybanco
+    image: mysql:latest
+    state: started
+    env:
+      MYSQL_ROOT_PASSWORD: "123456"
+    ports:
+     - "3306:3306"
+
+# - name: Get private IP
+#   shell: hostname -I | cut -f1 -d' ' >> telemetri_ip.yml
+  
+# - name: Get File
+#   fetch:
+#     dest: ./join
+#     src: /home/ubuntu/telemetri_ip.yml
+
+# - name: Organize Files
+#   shell:
+#     cp join/{{ inventory_hostname }}/telemetri_ip.yml role/telemetria1/vars/
+#     rm -fr join/
+#   delegate_to: localhost
+#   become: no

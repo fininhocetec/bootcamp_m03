@@ -1,0 +1,12 @@
+- name: launch Word-Press container
+  docker_container:
+    name: meublog
+    image: wordpress:latest
+    state: started
+    env:
+      WORDPRESS_DB_HOST: "{{ tag_Name_telemetria0.ec2_private_ip_address }}"
+      WORDPRESS_DB_PASSWORD: "123456"
+      WORDPRESS_DB_NAME: "mydb"
+      WORDPRESS_TABLE_PREFIX: "wp"
+    ports:
+     - "8080:8080"
