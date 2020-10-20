@@ -3,6 +3,7 @@
 ![aws ec2](https://img.shields.io/badge/aws-ec2-green?style=flat-square)
 ![ansible-2.9.6](https://img.shields.io/badge/ansible-2.9.6-yellow?style=flat-square)
 ![python-3.8.5](https://img.shields.io/badge/python-3.8.5-red?style=flat-square)
+![aws-boto3](https://img.shields.io/badge/aws-boto3-yellowgreen?style=flat-square)
 
 Aula prática Bootcamp IGTI - Módulo 3
 ======================================
