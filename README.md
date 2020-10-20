@@ -52,11 +52,11 @@ Ter uma Key_name para acesso via SSH nas instancias de ec2;
 Dependencies
 ------------
 
-Modulo da AWS chamdo boto e boto3;
+Modulo da AWS chamado boto e boto3;
 
     - Instalar com o seguinte comando;
 
-       $ pip3 install boto3 (Em linux)
+       $ pip3 install boto3 (Em linux - ubuntu)
 
        c:\pip install boto3 (Em windows)
 
