@@ -94,7 +94,7 @@ Caso queira alterar o que o comando ec2.py trás, entre no arquivo ec2.ini e des
 
 Obs.: caso o programa em pythom3 ec2.py não estiver como executavél, basta rodar o seguinte comando:
 
-    $ chmode +x ec2.py
+    $ chmod +x ec2.py
 
 Author Information
 ------------------
