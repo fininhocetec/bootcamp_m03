@@ -12,10 +12,14 @@ Requisitos
 
 Instalação dos seguintes itens:
 
-aws cli; (configurar as informações de acesso e região) 
+aws cli; (configurar as informações de acesso e região)
+
 terraform;
+
 ansible; (sudo apt install ansible)
+
 python3
+
 pip ou pip3;
 
 Ter uma Key_name para acesso via SSH nas instancias de ec2;
@@ -24,8 +28,11 @@ Dependencies
 ------------
 
 Modulo da AWS chamdo boto e boto3;
+
     - Instalar com o seguinte comando;
+
         pip3 install boto3 (Em linux)
+
         pip install boto3 (Em windows)
 
 
@@ -51,6 +58,15 @@ Destruindo o ambiente "para não correr o risco de ser cobrado :)"
 
 $ terraform destroy -auto-approve
 
+
+Extras
+--------
+
+Para listar os recuros criados:
+
+$ ./ec2.py --list
+
+Caso quer alterar o que o comando ec2.py tras, entre no arquivo ec2.ini e descomente as opções desejáveis.
 
 
 Author Information
