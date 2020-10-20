@@ -66,7 +66,7 @@ Para listar os recuros criados:
 
 $ ./ec2.py --list
 
-Caso quer alterar o que o comando ec2.py tras, entre no arquivo ec2.ini e descomente as opções desejáveis.
+Caso queira alterar o que o comando ec2.py tras, entre no arquivo ec2.ini e descomente as opções desejáveis.
 
 
 Author Information
