@@ -15,7 +15,7 @@ Requisitos
 
 Instalação dos seguintes itens:
 
-- aws cli; (configurar as informações de acesso e região)
+- Aws cli; (configurar as informações de acesso e região)
 
     - $ aws config
 
@@ -33,17 +33,17 @@ Instalação dos seguintes itens:
             aws_access_key_id = XYZXYZ
             aws_secret_access_key = XYZXYZ
 
-- terraform;
+- Terraform;
 
-- ansible; ( Instalação no Ubuntu ) 
+- Ansible; ( Instalação no Ubuntu ) 
 
     $ sudo apt install ansible
 
-- python3
+- Python3
 
     $ sudo apt install python3
 
-- pip ou pip3;
+- Pip ou pip3;
 
     $ sudo apt install python3-pip
 
