@@ -8,7 +8,9 @@
 Aula prática Bootcamp IGTI - Módulo 3
 ======================================
 
-IaC - Infra as Code
+![Capa](capa.png "Capa")
+
+### IaC - Infra as Code
 
 (Terraform, Ansible, aws cli + boto3 e python3)
 
