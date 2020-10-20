@@ -2,6 +2,9 @@ Aula prática Bootcamp IGTI - Módulo 3
 ======================================
 
 IaC - Infra as Code
+
+(Terraform, Ansible, aws cli + boto3 e python3)
+
  Infraestrutura como código para subir todo o ambiente na AWS para a prática do modulo 3.
 
  A única modificação e ação necessária é a criação/importação do par de chaves para acesso SSH, e alterar no arquivo main.tf na seção key_name.
@@ -12,7 +15,19 @@ Requisitos
 
 Instalação dos seguintes itens:
 
-aws cli; (configurar as informações de acesso e região)
+- Aws cli; (configurar as informações de acesso e região)
+
+    - $ aws config
+
+    ou
+
+    O arquivo de configuração da AWS CLI, cujo padrão é ~/.aws/config, tem o seguinte formato:
+
+            [default]
+            region = us-east-2
+            output = json
+
+    O arquivo de configuração da AWS CLI, cujo padrão é ~/.aws/credentials, tem o seguinte formato:
 
     - $ aws config
 
@@ -36,7 +51,7 @@ ansible; ( Instalação no Ubuntu )
 
     $ sudo apt install ansible
 
-python3
+- Ansible; ( Instalação no Ubuntu ) 
 
     $ sudo apt install python3
 
@@ -49,7 +64,7 @@ Ter uma Key_name para acesso via SSH nas instancias de ec2;
 Dependencies
 ------------
 
-Modulo da AWS chamdo boto e boto3;
+Modulo da AWS chamado boto e boto3;
 
     - Instalar com o seguinte comando;
 
@@ -58,7 +73,7 @@ Modulo da AWS chamdo boto e boto3;
        c:\pip install boto3 (Em windows)
 
 
-Rodando e destruindo o Ambiente
+Subindo e destruindo o Ambiente
 --------------------------------
 
 Tenha certeza de estar na pasta onde se encontra o projeto. 
@@ -71,7 +86,7 @@ Subindo o ambiente:
  
     $ terraform apply -auto-approve
 
-Aguarde por um tempo a criação do ambinte. (Cerca de 1:30 min.)
+Aguarde por um tempo a criação do ambiente. (Cerca de 1:30 min.)
  
     $ ansible-playbook -u ubuntu -i ec2.py site.yml
 
@@ -84,7 +99,11 @@ Destruindo o ambiente "para não correr o risco de ser cobrado :)"
 Extras
 --------
 
-Para listar os recuros criados:
+Para listar os recursos criados:
+
+    $ ./ec2.py --list
+
+Será listado como item principal os IPs públicos para acesso via SSH ou HTTP.
 
     $ ./ec2.py --list
 
