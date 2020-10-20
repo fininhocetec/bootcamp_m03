@@ -1,0 +1,13 @@
+
+- name: EC2 Getting instance info
+  ec2_instance_info:
+    filters:
+      "tag_Name": "{{ tag_name }}"
+  register: ec2info
+
+- name: Get IP Address
+  shell: echo "{{ ec2info.instances|map(attribute='private_ip_address')|list }}" | cut -d "'" -f 2
+  register: ec2ip
+
+- name: Get EC2 IP Address
+  debug: msg={{ ec2ip.stdout }}
