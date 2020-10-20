@@ -2,6 +2,9 @@ Aula prática Bootcamp IGTI - Módulo 3
 ======================================
 
 IaC - Infra as Code
+
+(Terraform, Ansible, aws cli + boto3 e python3)
+
  Infraestrutura como código para subir todo o ambiente na AWS para a prática do modulo 3.
 
  A única modificação e ação necessária é a criação/importação do par de chaves para acesso SSH, e alterar no arquivo main.tf na seção key_name.
