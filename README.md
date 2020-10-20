@@ -61,7 +61,7 @@ Modulo da AWS chamdo boto e boto3;
        c:\pip install boto3 (Em windows)
 
 
-Rodando e destruindo o Ambiente
+Subindo e destruindo o Ambiente
 --------------------------------
 
 Tenha certeza de estar na pasta onde se encontra o projeto. 
