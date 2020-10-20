@@ -1,3 +1,9 @@
+
+![Terraform-0-11](https://img.shields.io/badge/terraform-0.11-blueviolet?style=flat-square)
+![aws ec2](https://img.shields.io/badge/aws-ec2-green?style=flat-square)
+![ansible-2.9.6](https://img.shields.io/badge/ansible-2.9.6-yellow?style=flat-square)
+![python-3.8.5](https://img.shields.io/badge/python-3.8.5-red?style=flat-square)
+
 Aula prática Bootcamp IGTI - Módulo 3
 ======================================
 
@@ -36,17 +42,17 @@ Instalação dos seguintes itens:
 - Terraform;
 
 - Ansible; ( Instalação no Ubuntu ) 
-
+```sh
     $ sudo apt install ansible
-
+```
 - Python3
-
+```sh
     $ sudo apt install python3
-
+```
 - Pip ou pip3;
-
+```sh
     $ sudo apt install python3-pip
-
+```
 Ter uma Key_name para acesso via SSH nas instancias de ec2;
 
 Dependencies
