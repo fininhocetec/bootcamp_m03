@@ -41,6 +41,8 @@ $ terraform init
 $ terraform plan
  
 $ terraform apply -auto-approve
+
+Aguarde por um tempo a criação do ambinte. (Cerca de 1:30 min.)
  
 $ ansible-playbook -u ubuntu -i ec2.py site.yml
 
