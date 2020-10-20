@@ -7,7 +7,7 @@ IaC - Infra as Code
 
  Infraestrutura como código para subir todo o ambiente na AWS para a prática do modulo 3.
 
- A única modificação e ação necessária é a criação/importação do par de chaves para acesso SSH, e alterar no arquivo main.tf na seção key_name.
+A única modificação e ação necessária é a criação/importação do par de chaves para acesso SSH, e alterar no arquivo main.tf na seção key_name, o restante o código se encarrega de fazer, depois só acessar o IP publico da maquina da aplicação "telemetria1" na porta 8080. Na sessão extra tem um programa feito em python que lista os recursos criados inclusive lista por maquina/ip_publico.
 
 
 Requisitos
@@ -95,7 +95,7 @@ Será listado como item principal os IPs públicos para acesso via SSH ou HTTP.
 
 Caso queira alterar o que o comando ec2.py trás, entre no arquivo ec2.ini e descomente as opções desejáveis.
 
-Obs.: caso o programa em pythom3 ec2.py não estiver como executavél, basta rodar o seguinte comando:
+Obs.: caso o programa em python3 ec2.py não estiver como executavél, basta rodar o seguinte comando:
 
     $ chmod +x ec2.py
 
