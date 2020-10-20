@@ -103,3 +103,4 @@ Author Information
 ------------------
 
 - Willdimark Ragazzi Ventura (<fininho.cetec@gmail.com>)
+- Linkedin [Perfil](https://www.linkedin.com/in/willdymark-ragazzi-ventura-ccna-devnetsecops-membro-anppd%C2%AE-a4422617//).
