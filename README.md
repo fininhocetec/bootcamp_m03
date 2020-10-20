@@ -74,7 +74,7 @@ Subindo o ambiente:
  
     $ terraform apply -auto-approve
 
-Aguarde por um tempo a criação do ambinte. (Cerca de 1:30 min.)
+Aguarde por um tempo a criação do ambiente. (Cerca de 1:30 min.)
  
     $ ansible-playbook -u ubuntu -i ec2.py site.yml
 
@@ -87,7 +87,7 @@ Destruindo o ambiente "para não correr o risco de ser cobrado :)"
 Extras
 --------
 
-Para listar os recuros criados:
+Para listar os recursos criados:
 
     $ ./ec2.py --list
 
