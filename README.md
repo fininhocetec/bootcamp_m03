@@ -111,5 +111,5 @@ Obs.: caso o programa em python3 ec2.py não estiver como executavél, basta rod
 Informações do Autor
 ------------------
 
-- Willdimark Ragazzi Ventura (<fininho.cetec@gmail.com>)
+- Este projeto foi criado por Willdimark Ragazzi Ventura, DevOps Engineer. (<fininho.cetec@gmail.com>)
 - Linkedin [Perfil](https://www.linkedin.com/in/willdymark-ragazzi-ventura-ccna-devnetsecops-membro-anppd%C2%AE-a4422617//).
