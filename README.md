@@ -10,7 +10,7 @@ Aula prática Bootcamp IGTI - Módulo 3
 
 ![Capa](capa.png "Capa")
 
-### IaC - Infra as Code
+## IaC - Infra as Code
 
 (Terraform, Ansible, aws cli + boto3 e python3)
 
@@ -58,7 +58,7 @@ Instalação dos seguintes itens:
 ```
 Ter uma Key_name para acesso via SSH nas instancias de ec2;
 
-Dependencies
+Dependências
 ------------
 
 Modulo da AWS chamado boto e boto3;
@@ -108,7 +108,7 @@ Obs.: caso o programa em python3 ec2.py não estiver como executavél, basta rod
 
     $ chmod +x ec2.py
 
-Author Information
+Informações do Autor
 ------------------
 
 - Willdimark Ragazzi Ventura (<fininho.cetec@gmail.com>)
